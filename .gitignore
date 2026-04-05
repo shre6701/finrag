@@ -1,0 +1,75 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ───────────────────────────────────
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# ── Jupyter Notebooks ─────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── API Keys & Secrets ────────────────────────────────────
+.env
+.env.local
+.env*.local
+secrets.py
+config_local.py
+*_secrets.*
+anthropic_key.txt
+
+# ── Persisted Indices (large binary files) ────────────────
+*.faiss
+*.pkl
+*.index
+bm25_index.pkl
+baseline_chunks.pkl
+enhanced_chunks.pkl
+baseline_index.faiss
+enhanced_index.faiss
+
+# ── Generated Outputs (reproducible, no need to track) ────
+evaluation_results.csv
+results_*.csv
+ablation_summary.csv
+*.png
+demo_log.md
+
+# ── Submission Zip ────────────────────────────────────────
+*.zip
+
+# ── OS Files ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Data Files (SEC filings — large, re-fetchable) ────────
+data/raw/
+*.html
+*.htm
+sec_cache/
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
